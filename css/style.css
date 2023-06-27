@@ -6,7 +6,19 @@
 /* /////////////// */
 /* styling the header section */
 header{
-
+    background-color: white;
+}
+span#united-states{
+    border-right: 2px solid lightgrey;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-right: 20px;
+}
+span#location{
+    color: black;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 nav{
 
@@ -52,9 +64,15 @@ a{
     color: green;
 
 }
+.search-icon{
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    
+}
 #input-search{
     width: 30px;
-    height: 30px;
+    height: 30px; 
 }
 
 #logo{
@@ -64,18 +82,68 @@ a{
 }
 
 #img-us{
-    height: 30px;
+    height: auto;
     width: 30px;
+
 }
 
 
 #btn-feedback{
-    /* vertical-align:top;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    float: right;
+     margin-right: 5px;
+     vertical-align:top;
      transform:rotate(7deg);
 -ms-transform:rotate(90deg); /* IE 9 */
-/* -moz-transform:rotate(90deg); /* Firefox */
-/* -webkit-transform:rotate(90deg); /* Safari and Chrome */
-/* -o-transform:rotate(90deg); Opera  */ 
+-moz-transform:rotate(90deg); /* Firefox */
+-webkit-transform:rotate(90deg); /* Safari and Chrome */
+-o-transform:rotate(90deg); /*Opera  */ 
+}
+#btn-guide{
+    padding: 20px;
+    font-weight: bold;
+    background-color: #DD571C;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.welcome{
+    padding-top: 100px;
+    height: 100vh;
+    background-image: url("../img/slide4.webp");
+    background-repeat: no-repeat;
+}
+.welcome-section1{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.welcome-section1 h1, h3{
+    color: white;
+}
+.welcome-section1 h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.welcome-section1 h3{
+    padding-bottom: 20px;
+}
+.welcome-section2{
+    opacity: 0.6;
+    background-color: black;
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+.welcome-section2 ol{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* styling the main section */
