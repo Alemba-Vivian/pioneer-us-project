@@ -133,18 +133,47 @@ a{
     padding-bottom: 20px;
 }
 .welcome-section2{
-    opacity: 0.6;
+    opacity: 0.5;
     background-color: black;
     padding-top: 74px;
-    padding-bottom: 74px;
+    padding-bottom: 49px;
+    padding-left: 200px;
+  
+    
 }
-.welcome-section2 ol{
+.btn-slide{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius:  15px;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    border-style: solid;
+    border-color: lightgray;
+
+  
+}
+.slide{
     display: flex;
     color: white;
-    justify-content: space-evenly;
-    font-size: 1rem;
+    align-items: center;
     font-weight: bold;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 20px;
+    width: 60%;
+
+    
 }
+.slide p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    
+
+
+}
+
 
 /* styling the main section */
 
