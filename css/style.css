@@ -91,19 +91,23 @@ a{
 
 #btn-feedback{
     position: fixed;
-    right: -55px;
-    color: white;
-    background-color: green;
-    padding: 10px;
-    font-weight: bold;
-    border: none;
-     margin-right: 5px;
-     vertical-align:top;
-     transform:rotate(7deg);
--ms-transform:rotate(90deg); /* IE 9 */
--moz-transform:rotate(90deg); /* Firefox */
--webkit-transform:rotate(90deg); /* Safari and Chrome */
--o-transform:rotate(90deg); /*Opera  */ 
+        right: -55px;
+        color: white;
+        background-color: green;
+        padding: 10px;
+        font-weight: bold;
+        border: none;
+        margin-right: 5px;
+        vertical-align: top;
+        transform: rotate(7deg);
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -moz-transform: rotate(90deg);
+        /* Firefox */
+        -webkit-transform: rotate(90deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(90deg);
+        /*Opera  */
 }
 #btn-guide{
     padding: 20px;
@@ -270,12 +274,20 @@ section.section2{
     justify-content: center;
     flex-wrap: wrap;
     
+    
 }
 .content{
     background-color: white;
     height: 300px;
     width: 200px;
     padding-left: 20px;
+   
+}
+.content-one{
+    margin-left: 10px;
+}
+.content-two{
+    margin-left: 10px;
    
 }
 .content h2{
@@ -300,6 +312,7 @@ section.section2{
 .image1 img{
     height: 300px;
     width: 200px;
+  
 
 
 }
@@ -309,4 +322,78 @@ section.section2{
 
 
 }
+/* styling section 3  */
+/* styling section 3 row-container1 */
+section.section3{
+
+}
+.row-container1{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.row-container1 :is(h2, p){
+    text-align: center;
+
+}
+.row-container1 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    letter-spacing: 0.2rem;
+}
+.row-container1 p{
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+/* styling section 3 row-container2 */
+.row-container2{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+#image-grid{
+    width: 300px;
+ 
+  
+}
+.common{
+    background-color: white;
+    margin-top: -50px;
+}
+.my-content{
+    padding-bottom: 30px;
+}
+.my-content :is(h3,p,a){
+    padding-left: 30px;
+
+   
+}
+.my-content h3{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+.my-content p{
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+}
+.my-content>a{
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+
+
+
+
 /* styling the footer section */
