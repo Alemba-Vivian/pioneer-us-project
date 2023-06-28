@@ -469,5 +469,22 @@ footer ul li{
 
 /* styling the footer bottom */
 .footer-bottom{
-    border-top: 2px solid lightgray;
+    padding-top: 30px;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+.column-bottom2 ul{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 350px;
+
+}
+#logo-bottom{
+    height: 40px;
 }
