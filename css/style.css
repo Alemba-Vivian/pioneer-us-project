@@ -393,6 +393,45 @@ section.section3{
     font-weight: bold;
 }
 
+/* styling section 4  */
+section.section4{
+    background-image: url("../img/slide1.webp");
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-4{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    
+}
+.content-4 :is(h2, p){
+    color: white;
+    font-weight: bold;
+}
+.content-4 h2{
+    padding-bottom: 20px;
+    font-size: 1.7rem;
+    
+}
+.content-4 p{
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+#btn-create-account2{
+    padding: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    color: green;
+    border-radius: 5px; 
+    font-size: 1.1rem;
+    
+}
 
 
 
