@@ -23,16 +23,28 @@ span#location {
     font-size: 0.9rem;
     font-weight: bold;
 }
-.navbar1 {
+.navbar1 ul {
     padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+li#navItem2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  flex: 1;
+  padding-top: 5px;
+ 
+  
 
-
-
-
+    
 }
 
 #btn-login-signup {
-    float: right;
+    /* float: right; */
     padding: 10px;
     padding-bottom: 5px;
     background-color: green;
@@ -89,8 +101,12 @@ a {
 }
 
 #img-us {
-    height: auto;
-    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-bottom: -8.80px;
+    margin-right: 8px;
+   
+
 
 }
 
