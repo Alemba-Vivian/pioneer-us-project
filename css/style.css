@@ -200,7 +200,7 @@ a {
 
 /* styling the main section */
 /* section--one */
-section.section1 {
+.section1 {
     display: flex;
     padding: 100px;
     flex-wrap: wrap;
@@ -490,17 +490,20 @@ section.section4 {
 
 /* styling the footer section */
 footer {
-    background-color: #3b3c36;
+    /* background-color: #3b3c36; */
+    background-color: #242124;
     color: white;
 }
 
 /* styling the footer top */
 .footer-top {
+    background-color: #242124;
     padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
 .column-top5 ul {
@@ -526,16 +529,18 @@ footer ul li {
 /* styling the footer bottom */
 .footer-bottom {
     padding-top: 30px;
-    border-top: 1px solid grey;
+    border-top: 1px solid #353839;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 
 }
 
 .column-bottom2 ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     padding-top: 10px;
     padding-right: 350px;
@@ -543,5 +548,7 @@ footer ul li {
 }
 
 #logo-bottom {
-    height: 40px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 50px;
 }
